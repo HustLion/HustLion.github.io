@@ -1,0 +1,3 @@
+[submodule "projects/snake"]
+	path = projects/snake
+	url = https://github.com/HustLion/snake
