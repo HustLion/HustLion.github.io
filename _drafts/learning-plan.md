@@ -2,6 +2,71 @@
 Thanks to the list in [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness). My summaries for analyzed repositories goes to my [blog](http://hustlion.github.io/).
 
 
+# Codecombat
+This may be better. 
+
+Hmmm, node 0.10.x required but,,, don't want to install,,, try with 0.12
+
+hmm, the folowing just downloaded the repo....
+
+wget https://raw.githubusercontent.com/codecombat/codecombat/master/scripts/devSetup/bootstrap.sh
+chmod +x bootstrap.sh
+./bootstrap.sh git@github.com:HustLion/codecombat.git
+
+sudo python ./coco/scripts/devSetup/setup.py
+
+This script will set mongodb and node v0.10.x for you. Better combine this script with my script.
+
+
+    ./coco/bin/coco-mongodb - Starts MongoDB
+    sudo ./coco/bin/coco-brunch - Starts brunch, which watches for file changes
+    ./coco/bin/coco-dev-server - Starts your local web server
+
+http://localhost:3000/
+
+wget http://analytics.codecombat.com:8080/dump.tar.gz
+tar -xzvf dump.tar.gz
+mongorestore --drop dump
+
+Code Syncing
+
+Pick up upstream changes:
+
+    git fetch upstream
+
+## First-time setup
+
+	cd
+	wget https://raw.githubusercontent.com/codecombat/codecombat/master/scripts/devSetup/bootstrap.sh
+	# if necessary, modify node version to 0.12
+	chmod +x bootstrap.sh
+	./bootstrap.sh git@github.com:HustLion/codecombat.git
+	sudo python ./coco/scripts/devSetup/setup.py
+	./coco/bin/coco-mongodb 
+	wget http://analytics.codecombat.com:8080/dump.tar.gz
+	tar -xzvf dump.tar.gz
+	mongorestore --drop dump
+	sudo ./coco/bin/coco-brunch
+	./coco/bin/coco-dev-server
+
+Shoud keep `./coco/bin/coco-brunch` running in a terminal. It will automatically reload the page. Once the server successfully started with `2015-07-01T14:49:26.556Z - info: Successfully connected to MongoDB queue!`, visit `http://localhost:3000/`.
+
+Maybe I can optimize the wiki according to this.
+	
+
+## Workflow
+cd
+./coco/bin/coco-mongodb
+sudo ./coco/bin/coco-brunch
+./coco/bin/coco-dev-server
+
+if you want to update the database, close the server and:
+	wget http://analytics.codecombat.com:8080/dump.tar.gz
+	tar -xzvf dump.tar.gz
+	mongorestore --drop dump
+	sudo ./coco/bin/coco-brunch
+	./coco/bin/coco-dev-server
+
 ## Coffee-snake - coffee script
 [Coffee-snake](https://github.com/HustLion/coffee-snake) is a great successor for the [snake](## learning - Snake - Web), which has github pages and gitmodules and coffee script. Consider it as a upgrade :).
 
@@ -122,4 +187,6 @@ HexGL : Sci-Fi, racing
 0hh1
 2048 
 Monkey Rally 
+Bash game: [bash2048](https://github.com/HustLion/bash2048)
 
+# a very good example of writing articles about algorithms, [link](https://github.com/HustLion/bezierinfo)
