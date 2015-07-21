@@ -24,4 +24,10 @@ GreenVPN、鲨鱼VPN、51VPN等都是近年来发展不错的国内VPN服务商�
 
 # Game
 [服务兑换平台-EVE Online官方网站](http://pay.tiancity.com/eve/EveExchangeMain.aspx)
+## EVE Online
 [EVE Online](https://www.eveonline.com/)
+[BattleClinic](http://eve.battleclinic.com/)
+[eve-marketdata](http://eve-marketdata.com/)
+[EVE-Central: The EVE-Online Market Aggregator and Toolkit ](https://eve-central.com/)
+[EVE-Items](http://www.virtual-items.eu/)
+
