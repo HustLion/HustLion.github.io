@@ -13,6 +13,8 @@ My bookmark list got very large now and it's a little too long to scroll. I thin
 * [AppCrawlr: the app discovery engine](http://appcrawlr.com/)
 * [Top images (Korean)](http://www.topicimages.com/)
 * [Pixiv (Jp)](http://www.pixiv.net/)
+* [video2brain (de)](https://www.video2brain.com/de/)
+* [video2brain (fr)](https://www.video2brain.com/fr/)
 
 ## VPN
 目前来看，以Astrill、Tech Runo、fqrouter为代表的一批国外VPN服务商均已受到不同程度的干扰。其余主流国外VPN如Witopia、VyprVPN、ExpressVPN等暂时没有官方消息流出。上面提到此次VPN的封锁是通过协议层面实现的，而通过三种隧道协议之外的其他渠道实现“翻墙”的VPN将可以幸免于难。
