@@ -10,6 +10,8 @@ My bookmark list got very large now and it's a little too long to scroll. I thin
 
 # Utilities
 * [网页设计常用色彩搭配表 - 配色表 | C7TOOL](http://tool.c7sky.com/webcolor/)
+* [DIV+CSS教程_DIV+CSS布局_十天学会div+css_web标准化——标准之路](http://www.aa25.cn/)
+* [div+css网页标准版式布局](http://www.aa25.cn/layout/index.shtml)
 * [AppCrawlr: the app discovery engine](http://appcrawlr.com/)
 * [Top images (Korean)](http://www.topicimages.com/)
 * [Pixiv (Jp)](http://www.pixiv.net/)
