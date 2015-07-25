@@ -42,3 +42,10 @@ BAT
 github, bitbucket...
 
 freelancer...
+
+
+# Tutorials
+
+* [Web前端开发工程师大神养成计划助你从小小白大作战成为爱极客](http://www.jikexueyuan.com/path/web/)
+* [frontendmasters](https://frontendmasters.com/)
+* [modularview](http://www.modularview.com/)
