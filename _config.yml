@@ -2,7 +2,7 @@
 title: HustLion's programming blog
 email: hustlionM@qq.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is HustLion's programming blog. HustLion posts his demo projects and tutorials here.
+  This is HustLion's programming blog. Multiple natural languages may appear in any posts including Chinese, English, Spanish, French, Deutsch, Japanese, Korean. HustLion posts his demo projects and tutorials here.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://hustlion.github.io" # the base hostname & protocol for your site
 
