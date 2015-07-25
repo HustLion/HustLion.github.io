@@ -24,10 +24,15 @@ My bookmark list got very large now and it's a little too long to scroll. I thin
 * [Inkscape](http://inkscape.org/)
 * 
 
+## Education
+* [Lynda](http://www.lynda.com/)
+* [The Gnomon Workshop - Professional Training for Artists](http://www.thegnomonworkshop.com/)
+
 ## Sci-Fi design
 * [Sci-Fi Design | The Art & Design of Sci-Fi](http://scifidesign.com/)
 * [Horror & Dark Sci-Fi Web Design & Development | Sci-Fi.Guru](http://sci-fi.guru/)
 * [scifi-architecture](http://www.scifi-architecture.com/)
+* [CodePen - Front End Developer Playground & Code Editor in the Browser](http://codepen.io/)
 
 ## Editors
 * [Brackets - A modern, open source code editor that understands web design.](http://brackets.io/)
