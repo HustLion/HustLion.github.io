@@ -41,6 +41,7 @@ My bookmark list got very large now and it's a little too long to scroll. I thin
 * [scifi-architecture](http://www.scifi-architecture.com/)
 * [CodePen - Front End Developer Playground & Code Editor in the Browser](http://codepen.io/)
 * [gavriilklimov](http://www.gavriilklimov.com/)
+* [cssanimation](https://cssanimation.rocks/)
 
 ## Editors
 * [Brackets - A modern, open source code editor that understands web design.](http://brackets.io/)
