@@ -33,15 +33,17 @@ My bookmark list got very large now and it's a little too long to scroll. I thin
 * [GitHub Student Developer Pack - GitHub Education](https://education.github.com/pack)
 * [Microsoft DreamSpark](https://www.dreamspark.com/Default.aspx)
 * [Axure RP Pro](http://www.axure.com/edu)
-* 
+* [Free for students: Professional developer tools from JetBrains](https://www.jetbrains.com/student/)
 
 ## Sci-Fi design
 * [Sci-Fi Design | The Art & Design of Sci-Fi](http://scifidesign.com/)
 * [Horror & Dark Sci-Fi Web Design & Development | Sci-Fi.Guru](http://sci-fi.guru/)
 * [scifi-architecture](http://www.scifi-architecture.com/)
-* [CodePen - Front End Developer Playground & Code Editor in the Browser](http://codepen.io/)
+* [CodePen - Front End Developer Playground & Code Editor in the Browser](http://codepen.io/): I have collected some really good design here.
 * [gavriilklimov](http://www.gavriilklimov.com/)
 * [cssanimation](https://cssanimation.rocks/)
+* [videohive](http://videohive.net/)
+* [deviantart](http://www.deviantart.com/)
 
 ## Editors
 * [Brackets - A modern, open source code editor that understands web design.](http://brackets.io/)
