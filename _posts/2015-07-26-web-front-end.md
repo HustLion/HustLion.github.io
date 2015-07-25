@@ -10,11 +10,12 @@ To practise html+css+javascript(and their variants):
 
 * [CodePen - Front End Developer Playground & Code Editor in the Browser](http://codepen.io/): I have collected some really good design here.
 * [shortcutfoo](https://www.shortcutfoo.com/): Better be familiar with common shorcuts.
-* 
+* Yeoman or some other scaffolding tools.
 
 # Intermediate
 
 * Build my own site.
+* Common frameworks and libraries and their samples.
 
 # Advanced
 
