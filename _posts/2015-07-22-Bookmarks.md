@@ -21,6 +21,13 @@ My bookmark list got very large now and it's a little too long to scroll. I thin
 * [Top 20 - An Internet directory of Top 20 best websites and metasearch engine tool](http://www.top20.com/)
 * [Can I use... Support tables for HTML5, CSS3, etc](http://caniuse.com/)
 * [Icon Font & SVG Icon Sets ❍ IcoMoon](https://icomoon.io/)
+* [Inkscape](http://inkscape.org/)
+* 
+
+## Sci-Fi design
+* [Sci-Fi Design | The Art & Design of Sci-Fi](http://scifidesign.com/)
+* [Horror & Dark Sci-Fi Web Design & Development | Sci-Fi.Guru](http://sci-fi.guru/)
+* [scifi-architecture](http://www.scifi-architecture.com/)
 
 ## Editors
 * [Brackets - A modern, open source code editor that understands web design.](http://brackets.io/)
