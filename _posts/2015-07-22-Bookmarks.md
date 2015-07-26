@@ -48,6 +48,10 @@ My bookmark list got very large now and it's a little too long to scroll. I thin
 * [deviantart](http://www.deviantart.com/)
 * [Tron Legacy  Written by Josh Nimoy](http://jtnimoy.com/blogs/projects/14881671)
 * [digitaldomain](http://www.digitaldomain.com/): related to Tron Legacy
+* [How to design sci-fi weapons](http://www.creativebloq.com/digital-art/how-design-sci-fi-weapons-111413361)
+* [What Interaction Designers can Learn from Science Fiction Interfaces](http://nathan.com/thoughts/MakeItSo.pdf)
+* [scifi interfaces](http://scifiinterfaces.wordpress.com/)
+* [交互设计，不仅是交互，不仅是设计](http://www.douban.com/doulist/1669564/)
 
 ## Editors
 * [Brackets - A modern, open source code editor that understands web design.](http://brackets.io/)
