@@ -57,6 +57,15 @@ My bookmark list got very large now and it's a little too long to scroll. I thin
 * [Huds and Guis](http://www.hudsandguis.com/)
 * [Noel Rubin | Portfolio](http://work.teknoel.com/)
 * [accessmaincomputerfile](http://accessmaincomputerfile.net/)
+* [各种科幻星舰、飞船等的设计思路是什么？](http://www.zhihu.com/question/25035532)
+* [星球大战：千年隼号完全图解](http://book.douban.com/subject/19935618/)
+* [星际迷航：联邦星舰进取号完全图解](http://book.douban.com/subject/11639956/)
+* [游戏策划的基本修养](http://www.douban.com/doulist/1434295/)
+* [Art Books](http://www.douban.com/doulist/1807278/)
+* [Bungie.net is the Internet home for Bungie, the developer of Destiny, Halo, Myth, Oni, and Marathon, and the only place with official Bungie info straight from the developers.](https://www.bungie.net/)
+* [UI设计_UI_UI教程-Uimaker-专注UI设计](http://www.uimaker.com/)
+* [视觉中国 旗下创意社区-视觉me](http://shijue.me/home)
+* [人人素材社区-专业CG分享平台 -  Powered by Discuz!](http://www.rr-sc.com/)
 
 ## Editors
 * [Brackets - A modern, open source code editor that understands web design.](http://brackets.io/)
