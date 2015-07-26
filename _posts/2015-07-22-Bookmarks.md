@@ -41,7 +41,7 @@ My bookmark list got very large now and it's a little too long to scroll. I thin
 * [Horror & Dark Sci-Fi Web Design & Development | Sci-Fi.Guru](http://sci-fi.guru/)
 * [scifi-architecture](http://www.scifi-architecture.com/)
 * [CodePen - Front End Developer Playground & Code Editor in the Browser](http://codepen.io/): I have collected some really good design here.
-* [behance](https://www.behance.net/)
+* [behance](https://www.behance.net/): provides a large amount of sci-fi works.
 * [gavriilklimov](http://www.gavriilklimov.com/)
 * [cssanimation](https://cssanimation.rocks/)
 * [videohive](http://videohive.net/)
