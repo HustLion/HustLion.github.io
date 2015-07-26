@@ -23,11 +23,12 @@ My bookmark list got very large now and it's a little too long to scroll. I thin
 * [Icon Font & SVG Icon Sets ❍ IcoMoon](https://icomoon.io/)
 * [Inkscape](http://inkscape.org/)
 * [Interactive Wireframe Software & Mockup Tool | Axure](http://www.axure.com/)
+* [国外网站推荐-分享互联网-外国网站大全](http://www.egouz.com/)
 
 ## Education
 * [Lynda](http://www.lynda.com/)
 * [The Gnomon Workshop - Professional Training for Artists](http://www.thegnomonworkshop.com/)
-* 
+* [Polyglot Club Official Website - Practice languages and find friends](http://polyglotclub.com/)
 
 ### Student License
 * [GitHub Student Developer Pack - GitHub Education](https://education.github.com/pack)
