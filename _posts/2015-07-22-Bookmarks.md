@@ -52,6 +52,10 @@ My bookmark list got very large now and it's a little too long to scroll. I thin
 * [What Interaction Designers can Learn from Science Fiction Interfaces](http://nathan.com/thoughts/MakeItSo.pdf)
 * [scifi interfaces](http://scifiinterfaces.wordpress.com/)
 * [交互设计，不仅是交互，不仅是设计](http://www.douban.com/doulist/1669564/)
+* [Make It So: Interaction Design Lessons from Science Fiction Paperback](http://www.amazon.com/gp/product/1933820985/)
+* [Huds and Guis](http://www.hudsandguis.com/)
+* [Noel Rubin | Portfolio](http://work.teknoel.com/)
+* [accessmaincomputerfile](http://accessmaincomputerfile.net/)
 
 ## Editors
 * [Brackets - A modern, open source code editor that understands web design.](http://brackets.io/)
