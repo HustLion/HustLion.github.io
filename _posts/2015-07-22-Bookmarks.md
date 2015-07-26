@@ -45,6 +45,7 @@ My bookmark list got very large now and it's a little too long to scroll. I thin
 * [cssanimation](https://cssanimation.rocks/)
 * [videohive](http://videohive.net/)
 * [deviantart](http://www.deviantart.com/)
+* [Tron Legacy  Written by Josh Nimoy](http://jtnimoy.com/blogs/projects/14881671)
 
 ## Editors
 * [Brackets - A modern, open source code editor that understands web design.](http://brackets.io/)
