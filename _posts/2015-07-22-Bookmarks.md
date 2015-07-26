@@ -25,6 +25,7 @@ My bookmark list got very large now and it's a little too long to scroll. I thin
 * [Interactive Wireframe Software & Mockup Tool | Axure](http://www.axure.com/)
 * [国外网站推荐-分享互联网-外国网站大全](http://www.egouz.com/)
 * [materialpalette](http://www.materialpalette.com/)
+* [Reverse Engineering](http://thelegendofrandom.com/blog/sample-page)
 
 ## Education
 * [Lynda](http://www.lynda.com/)
