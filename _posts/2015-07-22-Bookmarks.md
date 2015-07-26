@@ -53,6 +53,7 @@ My bookmark list got very large now and it's a little too long to scroll. I thin
 * [scifi interfaces](http://scifiinterfaces.wordpress.com/)
 * [交互设计，不仅是交互，不仅是设计](http://www.douban.com/doulist/1669564/)
 * [Make It So: Interaction Design Lessons from Science Fiction Paperback](http://www.amazon.com/gp/product/1933820985/)
+* [Designing for Emerging Technologies: UX for Genomics, Robotics, and the Internet of Things](http://www.amazon.com/Designing-Emerging-Technologies-Genomics-Robotics/dp/1449370519/ref=pd_bxgy_14_text_y)
 * [Huds and Guis](http://www.hudsandguis.com/)
 * [Noel Rubin | Portfolio](http://work.teknoel.com/)
 * [accessmaincomputerfile](http://accessmaincomputerfile.net/)
