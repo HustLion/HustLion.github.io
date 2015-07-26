@@ -34,6 +34,7 @@ My bookmark list got very large now and it's a little too long to scroll. I thin
 * [Microsoft DreamSpark](https://www.dreamspark.com/Default.aspx)
 * [Axure RP Pro](http://www.axure.com/edu)
 * [Free for students: Professional developer tools from JetBrains](https://www.jetbrains.com/student/)
+* [The Foundry :: Student License](http://www.thefoundry.co.uk/education/student-license/)
 
 ## Sci-Fi design
 * [Sci-Fi Design | The Art & Design of Sci-Fi](http://scifidesign.com/)
