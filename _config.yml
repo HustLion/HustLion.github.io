@@ -1,15 +1,21 @@
 # Site settings
-title: HustLion's programming blog
+title:    HustLion
+tagline:          'a developer who is a Sci-fi enthusiast'
 email: hustlionM@qq.com
 description: > # this means to ignore newlines until "baseurl:"
   This is HustLion's programming blog. Multiple natural languages may appear in any posts including Chinese, English, Spanish, French, Deutsch, Japanese, Korean, Russian, Italian. HustLion posts his demo projects and tutorials here.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: /
 url: "http://hustlion.github.io" # the base hostname & protocol for your site
 
+paginate:         10
 github_username:  HustLion
 
 # Build settings
 markdown: kramdown
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
 
 gems:
 - jekyll-mentions
