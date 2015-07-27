@@ -1,6 +1,18 @@
 # Plan of learning
 Thanks to the list in [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness). My summaries for analyzed repositories goes to my [blog](http://hustlion.github.io/).
 
+# cura
+
+#! /bin/sh
+
+set -x
+autopoint 
+aclocal -I m4
+autoheader
+libtoolize 
+automake --add-missing
+autoconf
+
 
 # Codecombat
 This may be better. 
@@ -54,7 +66,7 @@ Shoud keep `./coco/bin/coco-brunch` running in a terminal. It will automatically
 Maybe I can optimize the wiki according to this.
 	
 
-## Workflow
+## Workflow (internet connection required)
 cd
 ./coco/bin/coco-mongodb
 sudo ./coco/bin/coco-brunch
@@ -188,5 +200,7 @@ HexGL : Sci-Fi, racing
 2048 
 Monkey Rally 
 Bash game: [bash2048](https://github.com/HustLion/bash2048)
+
+Clion's startup script, worth learning, shell.
 
 # a very good example of writing articles about algorithms, [link](https://github.com/HustLion/bezierinfo)
