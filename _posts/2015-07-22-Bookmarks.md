@@ -69,6 +69,7 @@ My bookmark list got very large now and it's a little too long to scroll. I thin
 * [UI设计_UI_UI教程-Uimaker-专注UI设计](http://www.uimaker.com/)
 * [视觉中国 旗下创意社区-视觉me](http://shijue.me/home)
 * [人人素材社区-专业CG分享平台 -  Powered by Discuz!](http://www.rr-sc.com/)
+* [jekyll themes](http://jekyllthemes.org/)
 
 ## Editors
 * [Brackets - A modern, open source code editor that understands web design.](http://brackets.io/)
