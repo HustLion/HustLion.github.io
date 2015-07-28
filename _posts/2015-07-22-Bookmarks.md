@@ -21,7 +21,7 @@ My bookmark list got very large now and it's a little too long to scroll. I thin
 * [Can I use... Support tables for HTML5, CSS3, etc](http://caniuse.com/)
 * [Icon Font & SVG Icon Sets ❍ IcoMoon](https://icomoon.io/)
 * [Inkscape](http://inkscape.org/)
-* [Interactive Wireframe Software & Mockup Tool | Axure](http://www.axure.com/)
+* [Interactive Wireframe Software & Mockup Tool  Axure](http://www.axure.com/)
 * [国外网站推荐-分享互联网-外国网站大全](http://www.egouz.com/)
 * [materialpalette](http://www.materialpalette.com/)
 * [Reverse Engineering](http://thelegendofrandom.com/blog/sample-page)
@@ -36,6 +36,13 @@ Indroduced by [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev
 * [百度开放服务平台](http://developer.baidu.com/)
 * [百度开放云](http://bce.baidu.com/)
 * [CNZZ数据专家——全球最大的中文网站统计分析平台](http://www.cnzz.com/)
+* [API Store_为开发者提供最全面的API服务](http://apistore.baidu.com/)
+* [wex5](http://wex5.com/)
+* 
+
+## Quick deployment
+
+* [Baidu App Builder](http://appbuilder.baidu.com)
 
 ## Ads
 不支持github，但是自己用淘宝联盟写链接应该还是可以的。也就是佣金形式。
@@ -58,7 +65,7 @@ Indroduced by [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev
 
 ## Sci-Fi design
 * [Sci-Fi Design   The Art & Design of Sci-Fi](http://scifidesign.com/)
-* [Horror & Dark Sci-Fi Web Design & Development | Sci-Fi.Guru](http://sci-fi.guru/)
+* [Horror & Dark Sci-Fi Web Design & Development   Sci-Fi.Guru](http://sci-fi.guru/)
 * [scifi-architecture](http://www.scifi-architecture.com/)
 * [CodePen - Front End Developer Playground & Code Editor in the Browser](http://codepen.io/): I have collected some really good design here.
 * [behance](https://www.behance.net/): provides a large amount of sci-fi works.
