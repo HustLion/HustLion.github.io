@@ -38,9 +38,11 @@ Indroduced by [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev
 * [CNZZ数据专家——全球最大的中文网站统计分析平台](http://www.cnzz.com/)
 
 ## Ads
+不支持github，但是自己用淘宝联盟写链接应该还是可以的。也就是佣金形式。
 
 * [阿里妈妈](http://www.alimama.com/index.htm)
 * [淘宝联盟](http://pub.alimama.com/)
+* [百度广告联盟](http://union.baidu.com/customerLogin.html?fromu=http%3A%2F%2Funion.baidu.com%2F)
 
 ## Education
 * [Lynda](http://www.lynda.com/)
