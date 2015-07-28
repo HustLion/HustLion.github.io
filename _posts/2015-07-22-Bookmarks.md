@@ -25,12 +25,15 @@ My bookmark list got very large now and it's a little too long to scroll. I thin
 * [国外网站推荐-分享互联网-外国网站大全](http://www.egouz.com/)
 * [materialpalette](http://www.materialpalette.com/)
 * [Reverse Engineering](http://thelegendofrandom.com/blog/sample-page)
-* 
+* [Hexo - blog framework](https://hexo.io/)
 
 ## Free dev tools
 Indroduced by [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev), [caio-ribeiro-pereira/devfreebooks](https://github.com/caio-ribeiro-pereira/devfreebooks), [vincenthou/free-for-china-dev](https://github.com/vincenthou/free-for-china-dev), [caio-ribeiro-pereira/devfreecasts](https://github.com/caio-ribeiro-pereira/devfreecasts).
 
-* []()
+* [百度统计——最大的中文网站分析平台](http://tongji.baidu.com/web/welcome/login)
+* [百度站长平台_让网站更具价值](http://zhanzhang.baidu.com/)
+* [百度云加速 - 云时代的网站安全加速平台 | 免费网站加速_网站防火墙_防CC_防DDOS_免费CDN加速](http://next.su.baidu.com/)
+* [百度开放服务平台](http://developer.baidu.com/)
 
 ## Education
 * [Lynda](http://www.lynda.com/)
