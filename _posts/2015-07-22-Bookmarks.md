@@ -8,7 +8,7 @@ date:   2015-07-22 5:50:45
 My bookmark list got very large now and it's a little too long to scroll. I think it's a good idea to organize it with a blog post. I will list them with several categories.
 
 # Utilities
-* [网页设计常用色彩搭配表 - 配色表 | C7TOOL](http://tool.c7sky.com/webcolor/)
+* [网页设计常用色彩搭配表 - 配色表 C7TOOL](http://tool.c7sky.com/webcolor/)
 * [DIV+CSS教程_DIV+CSS布局_十天学会div+css_web标准化——标准之路](http://www.aa25.cn/)
 * [div+css网页标准版式布局](http://www.aa25.cn/layout/index.shtml)
 * [AppCrawlr: the app discovery engine](http://appcrawlr.com/)
@@ -32,10 +32,15 @@ Indroduced by [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev
 
 * [百度统计——最大的中文网站分析平台](http://tongji.baidu.com/web/welcome/login)
 * [百度站长平台_让网站更具价值](http://zhanzhang.baidu.com/)
-* [百度云加速 - 云时代的网站安全加速平台 | 免费网站加速_网站防火墙_防CC_防DDOS_免费CDN加速](http://next.su.baidu.com/): not available for github pages
+* [百度云加速 - 云时代的网站安全加速平台 免费网站加速_网站防火墙_防CC_防DDOS_免费CDN加速](http://next.su.baidu.com/): not available for github pages
 * [百度开放服务平台](http://developer.baidu.com/)
 * [百度开放云](http://bce.baidu.com/)
 * [CNZZ数据专家——全球最大的中文网站统计分析平台](http://www.cnzz.com/)
+
+## Ads
+
+* [阿里妈妈](http://www.alimama.com/index.htm)
+* [淘宝联盟](http://pub.alimama.com/)
 
 ## Education
 * [Lynda](http://www.lynda.com/)
@@ -50,7 +55,7 @@ Indroduced by [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev
 * [The Foundry :: Student License](http://www.thefoundry.co.uk/education/student-license/)
 
 ## Sci-Fi design
-* [Sci-Fi Design | The Art & Design of Sci-Fi](http://scifidesign.com/)
+* [Sci-Fi Design   The Art & Design of Sci-Fi](http://scifidesign.com/)
 * [Horror & Dark Sci-Fi Web Design & Development | Sci-Fi.Guru](http://sci-fi.guru/)
 * [scifi-architecture](http://www.scifi-architecture.com/)
 * [CodePen - Front End Developer Playground & Code Editor in the Browser](http://codepen.io/): I have collected some really good design here.
@@ -68,7 +73,7 @@ Indroduced by [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev
 * [Make It So: Interaction Design Lessons from Science Fiction Paperback](http://www.amazon.com/gp/product/1933820985/)
 * [Designing for Emerging Technologies: UX for Genomics, Robotics, and the Internet of Things](http://www.amazon.com/Designing-Emerging-Technologies-Genomics-Robotics/dp/1449370519/ref=pd_bxgy_14_text_y): [Free sample](http://cdn.oreillystatic.com/oreilly/booksamplers/9781449370510_sampler.pdf)
 * [Huds and Guis](http://www.hudsandguis.com/)
-* [Noel Rubin | Portfolio](http://work.teknoel.com/)
+* [Noel Rubin   Portfolio](http://work.teknoel.com/)
 * [accessmaincomputerfile](http://accessmaincomputerfile.net/)
 * [各种科幻星舰、飞船等的设计思路是什么？](http://www.zhihu.com/question/25035532)
 * [星球大战：千年隼号完全图解](http://book.douban.com/subject/19935618/)
