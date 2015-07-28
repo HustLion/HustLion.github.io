@@ -38,7 +38,7 @@ Indroduced by [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev
 * [CNZZ数据专家——全球最大的中文网站统计分析平台](http://www.cnzz.com/)
 * [API Store_为开发者提供最全面的API服务](http://apistore.baidu.com/)
 * [wex5](http://wex5.com/)
-* 
+* [clouda+](http://clouda.baidu.com/)
 
 ## Quick deployment
 
