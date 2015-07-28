@@ -35,6 +35,7 @@ Indroduced by [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev
 * [百度云加速 - 云时代的网站安全加速平台 | 免费网站加速_网站防火墙_防CC_防DDOS_免费CDN加速](http://next.su.baidu.com/): not available for github pages
 * [百度开放服务平台](http://developer.baidu.com/)
 * [百度开放云](http://bce.baidu.com/)
+* [CNZZ数据专家——全球最大的中文网站统计分析平台](http://www.cnzz.com/)
 
 ## Education
 * [Lynda](http://www.lynda.com/)
