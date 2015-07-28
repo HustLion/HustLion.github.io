@@ -32,8 +32,9 @@ Indroduced by [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev
 
 * [百度统计——最大的中文网站分析平台](http://tongji.baidu.com/web/welcome/login)
 * [百度站长平台_让网站更具价值](http://zhanzhang.baidu.com/)
-* [百度云加速 - 云时代的网站安全加速平台 | 免费网站加速_网站防火墙_防CC_防DDOS_免费CDN加速](http://next.su.baidu.com/)
+* [百度云加速 - 云时代的网站安全加速平台 | 免费网站加速_网站防火墙_防CC_防DDOS_免费CDN加速](http://next.su.baidu.com/): not available for github pages
 * [百度开放服务平台](http://developer.baidu.com/)
+* [百度开放云](http://bce.baidu.com/)
 
 ## Education
 * [Lynda](http://www.lynda.com/)
