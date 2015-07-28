@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: post-midnight
 title:  "Bookmarks collection"
 date:   2015-07-22 5:50:45
-categories: Tools
 ---
 
 # Introduction
@@ -26,6 +25,12 @@ My bookmark list got very large now and it's a little too long to scroll. I thin
 * [国外网站推荐-分享互联网-外国网站大全](http://www.egouz.com/)
 * [materialpalette](http://www.materialpalette.com/)
 * [Reverse Engineering](http://thelegendofrandom.com/blog/sample-page)
+* 
+
+## Free dev tools
+Indroduced by [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev), [caio-ribeiro-pereira/devfreebooks](https://github.com/caio-ribeiro-pereira/devfreebooks), [vincenthou/free-for-china-dev](https://github.com/vincenthou/free-for-china-dev), [caio-ribeiro-pereira/devfreecasts](https://github.com/caio-ribeiro-pereira/devfreecasts).
+
+* []()
 
 ## Education
 * [Lynda](http://www.lynda.com/)
