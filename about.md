@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+`var me = (Language habits) && (muscle memories) && (architecture design) && (sci-fi) && (theories) && (fitness);`
+
 Hustlion = Core.developer.full-stack + Core.bodybuilder + Supporting.[polyglot, CG/UI/UX, security/reverse-engineering]
 
 
