@@ -55,6 +55,17 @@ Indroduced by [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev
 * [Lynda](http://www.lynda.com/)
 * [The Gnomon Workshop - Professional Training for Artists](http://www.thegnomonworkshop.com/)
 * [Polyglot Club Official Website - Practice languages and find friends](http://polyglotclub.com/)
+* 
+
+### Interactive learning tools:
+
+* Code School: concepts, project
+* Codecadedy: concepts, project
+* ShortcutFoo: train
+* treehouse: concepts, project
+* CodeCombat: game, train
+* Duolingo: concept, train
+* Memorize.com: train
 
 ### Student License
 * [GitHub Student Developer Pack - GitHub Education](https://education.github.com/pack)
