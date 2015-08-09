@@ -26,6 +26,12 @@ My bookmark list got very large now and it's a little too long to scroll. I thin
 * [materialpalette](http://www.materialpalette.com/)
 * [Reverse Engineering](http://thelegendofrandom.com/blog/sample-page)
 * [Hexo - blog framework](https://hexo.io/)
+* [Diffen - Compare Anything. Diffen. Discern. Decide.](http://www.diffen.com/)
+
+## Online IDE
+
+* [Ideone.com - Online Compiler and IDE >> C/C++, Java, PHP, Python, Perl and 40+ other compilers and interpreters](http://ideone.com/)
+* [Drag And Drop HTML Editor Online, WYSIWYG Visual Editor, HTML Editor Online Web Page Builder, Web Based WYSIWYG Editor, Source Code, Javascript Program](http://plugnedit.com/)
 
 ## Free dev tools
 Indroduced by [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev), [caio-ribeiro-pereira/devfreebooks](https://github.com/caio-ribeiro-pereira/devfreebooks), [vincenthou/free-for-china-dev](https://github.com/vincenthou/free-for-china-dev), [caio-ribeiro-pereira/devfreecasts](https://github.com/caio-ribeiro-pereira/devfreecasts).
@@ -39,6 +45,8 @@ Indroduced by [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev
 * [API Store_为开发者提供最全面的API服务](http://apistore.baidu.com/)
 * [wex5](http://wex5.com/)
 * [clouda+](http://clouda.baidu.com/)
+* [Postimage.org -免费图片存取/上传图片](http://postimage.org/)
+* [Textfree Web for Free Unlimited Texting From Your Computer](http://www.pinger.com/tfw/)
 
 ## Quick deployment
 
