@@ -74,6 +74,9 @@ Indroduced by [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev
 * CodeCombat: game, train
 * Duolingo: concept, train
 * Memorize.com: train
+* [计蒜客](http://www.jisuanke.com/)
+* [萌码](http://www.mengma.com/)
+* [Fenby](http://www.fenby.com)
 
 ### Student License
 * [GitHub Student Developer Pack - GitHub Education](https://education.github.com/pack)
