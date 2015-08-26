@@ -7,6 +7,34 @@ date:   2015-07-22 5:50:45
 # Introduction
 My bookmark list got very large now and it's a little too long to scroll. I think it's a good idea to organize it with a blog post. I will list them with several categories.
 
+# Extra notes
+
+* MVC frameworks for PHP: possibly Zend, Synfony, CodeIgniter, CakePHP
+* GTD: Getting Things Done
+
+# Info center
+
+* [open-open](http://www.open-open.com/)
+* [SDC设计师网址导航 - 学设计从这里开始！](http://hao.uisdc.com/)
+
+# Mobile
+
+* [Xamarin](http://xamarin.com/): Tutsplus - Building Android Apps In C# With Xamarin
+
+
+# Electronics
+
+* [hackster.io](https://www.hackster.io)
+* [123circuits](https://123d.circuits.io/): offers several online simulators and is very cool
+* [fritzing](http://fritzing.org)
+* [Windows 10 loT Core](https://ms-iot.github.io/content/en-US/Downloads.htm)
+* [Eagle](http://www.cadsoftusa.com/download-eagle/)
+* [Circuit Scribe](http://www.circuitscribe.com/)
+
+# Augmented Reality & Virtual Reality
+
+* [增强现实中国](http://www.arinchina.com)
+
 # Utilities
 * [网页设计常用色彩搭配表 - 配色表 C7TOOL](http://tool.c7sky.com/webcolor/)
 * [DIV+CSS教程_DIV+CSS布局_十天学会div+css_web标准化——标准之路](http://www.aa25.cn/)
@@ -27,6 +55,7 @@ My bookmark list got very large now and it's a little too long to scroll. I thin
 * [Reverse Engineering](http://thelegendofrandom.com/blog/sample-page)
 * [Hexo - blog framework](https://hexo.io/)
 * [Diffen - Compare Anything. Diffen. Discern. Decide.](http://www.diffen.com/)
+* [Gitlab](https://about.gitlab.com/gitlab-com/): GitLab.com hosts your (private) software projects for free
 
 ## Online IDE
 
@@ -60,10 +89,12 @@ Indroduced by [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev
 * [百度广告联盟](http://union.baidu.com/customerLogin.html?fromu=http%3A%2F%2Funion.baidu.com%2F)
 
 ## Education
-* [Lynda](http://www.lynda.com/)
+* [Lynda](http://www.lynda.com/): nice brands: Code Clinic (different languages for same problems)
 * [The Gnomon Workshop - Professional Training for Artists](http://www.thegnomonworkshop.com/)
 * [Polyglot Club Official Website - Practice languages and find friends](http://polyglotclub.com/)
-* 
+* [new think tank](www.newthinktank.com)
+* [3D motive](http://3dmotive.com/)
+
 
 ### Interactive learning tools:
 
@@ -86,6 +117,9 @@ Indroduced by [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev
 * [The Foundry :: Student License](http://www.thefoundry.co.uk/education/student-license/)
 
 ## Sci-Fi design
+HUD. Motion graphics.
+
+
 * [Sci-Fi Design   The Art & Design of Sci-Fi](http://scifidesign.com/)
 * [Horror & Dark Sci-Fi Web Design & Development   Sci-Fi.Guru](http://sci-fi.guru/)
 * [scifi-architecture](http://www.scifi-architecture.com/)
@@ -117,6 +151,11 @@ Indroduced by [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev
 * [人人素材社区-专业CG分享平台 -  Powered by Discuz!](http://www.rr-sc.com/)
 * [jekyll themes](http://jekyllthemes.org/)
 * [Star Trek fonts](http://www.neutralzone.de/archiv/archiv_e.htm)
+* [user interfaces and motion graphics](http://www.rohandalvi.net/motion-graphics/)
+* [Open Processing](https://www.openprocessing.org/)
+* [49款数据可视化工具](http://www.open-open.com/news/view/2efdd4)
+* [Polymaps](http://polymaps.org/): This provides a very cool map, [sci-fi style](http://polymaps.org/ex/midnight-commander.html#15.69/28.6604/-244.0979)
+* [零ZEЯRO](http://book.douban.com/subject/6028977/)
 
 ## Editors
 * [Brackets - A modern, open source code editor that understands web design.](http://brackets.io/)
@@ -148,3 +187,20 @@ GreenVPN、鲨鱼VPN、51VPN等都是近年来发展不错的国内VPN服务商�
 [ECF](http://bbs.eve-china.com/forum.php)
 [EVE國服市場中心](http://www.ceve-market.org/index/)
 
+
+
+# Security
+
+<abbr title="The longer you use any X as a Service, the closer you come to the day they disappoint you">Rob's Law</abbr>
+
+* Tor. Kali.
+* Metasploit + Armitage + nmap and zenmap
+* Cross Site Scripting (XSS)
+* SQL Injection
+
+# Digital Music
+
+[Guide: How to Make Music Using a Computer](http://www.wikihow.com/Make-Music-Using-a-Computer). Digital audio workstation (or DAW).
+
+* [garage band](http://www.apple.com/cn/mac/garageband/)
+* [music notation](http://method-behind-the-music.com/theory/notation/)
