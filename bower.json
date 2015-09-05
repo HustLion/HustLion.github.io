@@ -1,0 +1,31 @@
+{
+  "name": "HustLion-Pages",
+  "version": "0.0.1",
+  "homepage": "https://github.com/HustLion/HustLion.github.io",
+  "authors": [
+    "HustLion <hustlionM@qq.com>"
+  ],
+  "description": "This is a project to help me remember math with cards.",
+  "moduleType": [
+    "node"
+  ],
+  "dependencies": {
+    "jquery": "",
+    "json-editor": "",
+    "MathJax": "~2.5.3",
+    "angular": "~1.4.3"
+  },
+  "keywords": [
+    "math",
+    "cards",
+    "memorize"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
