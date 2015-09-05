@@ -13,6 +13,10 @@ github_username:  HustLion
 # Build settings
 markdown: kramdown
 
+# Markdown Processors
+kramdown:
+	math_engine:	mathjax
+
 # Permalinks
 permalink:        pretty
 relative_permalinks: true
