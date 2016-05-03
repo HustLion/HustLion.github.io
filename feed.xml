@@ -1,30 +1,643 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>LionMundo</title>
+    <description>This is HustLion&#39;s programming blog. Multiple natural languages may appear in any posts including Chinese, English, Spanish, French, Deutsch, Japanese, Korean, Russian, Italian. HustLion posts his demo projects and tutorials here.
+</description>
+    <link>http://hustlion.github.io/</link>
+    <atom:link href="http://hustlion.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 03 May 2016 16:55:43 +0800</pubDate>
+    <lastBuildDate>Tue, 03 May 2016 16:55:43 +0800</lastBuildDate>
+    <generator>Jekyll v3.0.5</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;How about math? :smile: :heart:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+  &amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  &amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\
+      \vdots &amp; \ddots &amp; \vdots \\
+      \phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 03 May 2016 10:42:00 +0800</pubDate>
+        <link>http://hustlion.github.io/blog/2016/05/03/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://hustlion.github.io/blog/2016/05/03/welcome-to-jekyll/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Dotfiles and others</title>
+        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+
+&lt;p&gt;&lt;code&gt;dotfiles&lt;/code&gt; as the main/stable repo for dev-env.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;dotfiles-local&lt;/code&gt; as the experimental repo.&lt;/p&gt;
+
+&lt;p&gt;‘pages’ as the notes repo.&lt;/p&gt;
+
+&lt;p&gt;Nice Ref:
+http://www.explainshell.com&lt;/p&gt;
+
+&lt;p&gt;TODO:
+OpenPGP: http://alterant.github.io/alterant/&lt;/p&gt;
+
+&lt;p&gt;To learn new stuff:&lt;/p&gt;
+
+&lt;dotfiles.github.io&gt;
+&lt;/dotfiles.github.io&gt;
+</description>
+        <pubDate>Mon, 02 May 2016 00:10:45 +0800</pubDate>
+        <link>http://hustlion.github.io/blog/2016/05/02/Dotfiles/</link>
+        <guid isPermaLink="true">http://hustlion.github.io/blog/2016/05/02/Dotfiles/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Math Notes</title>
+        <description>&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;
+&lt;/script&gt;
+
+&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+
+&lt;p&gt;The following is a math block:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;5 + 5&lt;/script&gt;
+
+&lt;p&gt;But next comes a paragraph with an inline math statement:&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;5 + 5&lt;/script&gt;&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+  &amp; \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  &amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\
+      \vdots &amp; \ddots &amp; \vdots \\
+      \phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*} %]]&gt;&lt;/script&gt;
+</description>
+        <pubDate>Sat, 15 Aug 2015 02:10:45 +0800</pubDate>
+        <link>http://hustlion.github.io/blog/2015/08/15/Math/</link>
+        <guid isPermaLink="true">http://hustlion.github.io/blog/2015/08/15/Math/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Tools</title>
+        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+
+&lt;p&gt;My tool sets.&lt;/p&gt;
+
+&lt;h1 id=&quot;code-snippets&quot;&gt;Code Snippets&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/HustLion/cpp-sublime-snippet&quot;&gt;cpp-sublime-snippet&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;document-reading&quot;&gt;Document Reading&lt;/h1&gt;
+
+&lt;p&gt;Dash for OS X&lt;/p&gt;
+
+&lt;h1 id=&quot;editor&quot;&gt;Editor&lt;/h1&gt;
+
+&lt;h2 id=&quot;gui&quot;&gt;GUI&lt;/h2&gt;
+&lt;p&gt;Sublime Text 3, Textmate, Gedit.&lt;/p&gt;
+
+&lt;h2 id=&quot;command-line&quot;&gt;Command Line&lt;/h2&gt;
+&lt;p&gt;Vim&lt;/p&gt;
+
+&lt;h1 id=&quot;ide&quot;&gt;IDE&lt;/h1&gt;
+
+&lt;h2 id=&quot;javascripthtmlcss&quot;&gt;Javascript/HTML/CSS&lt;/h2&gt;
+&lt;p&gt;WebStorm&lt;/p&gt;
+
+&lt;h2 id=&quot;java&quot;&gt;Java&lt;/h2&gt;
+&lt;p&gt;IntelliJ IDEA&lt;/p&gt;
+
+&lt;h2 id=&quot;php&quot;&gt;PHP&lt;/h2&gt;
+&lt;p&gt;Eclipse&lt;/p&gt;
+
+&lt;h2 id=&quot;c&quot;&gt;C&lt;/h2&gt;
+&lt;p&gt;Visual Studio&lt;/p&gt;
+
+&lt;h2 id=&quot;swiftcc&quot;&gt;Swift/C++/C&lt;/h2&gt;
+&lt;p&gt;Xcode, AppCode&lt;/p&gt;
+
+&lt;h1 id=&quot;language&quot;&gt;Language&lt;/h1&gt;
+
+&lt;h2 id=&quot;job&quot;&gt;Job&lt;/h2&gt;
+&lt;p&gt;Javascript, HTML5, CSS&lt;/p&gt;
+
+&lt;h2 id=&quot;visual&quot;&gt;Visual&lt;/h2&gt;
+&lt;p&gt;&lt;abbr title=&quot;Processing is an open source programming language and environment for people who want to program images, animation, and interactions.&quot;&gt; Processing &lt;/abbr&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;script&quot;&gt;Script&lt;/h2&gt;
+&lt;p&gt;Shell, Python&lt;/p&gt;
+
+&lt;h2 id=&quot;game-logic&quot;&gt;Game logic&lt;/h2&gt;
+&lt;p&gt;C#, Lua&lt;/p&gt;
+</description>
+        <pubDate>Sat, 15 Aug 2015 02:10:45 +0800</pubDate>
+        <link>http://hustlion.github.io/blog/2015/08/15/Tools/</link>
+        <guid isPermaLink="true">http://hustlion.github.io/blog/2015/08/15/Tools/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Jekyll theme tweaking</title>
+        <description>&lt;h1 id=&quot;principles&quot;&gt;Principles&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sci-fi&lt;/li&gt;
+  &lt;li&gt;neat&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;possible-tricks&quot;&gt;Possible Tricks&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bower&lt;/li&gt;
+  &lt;li&gt;9 languages combined to one, once clicked they will expand.&lt;/li&gt;
+  &lt;li&gt;different design for different content&lt;/li&gt;
+  &lt;li&gt;repo comment, design comment, tool collections, bookmarks, algorithms, visualizations should all have different layout.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;resources&quot;&gt;Resources&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mattgraham/midnight&quot;&gt;GitHub Pages Theme: Midnight &lt;/a&gt;: for the color and main parts. &lt;a href=&quot;http://madebygraham.com/midnight/&quot;&gt;Live demo&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rprieto.github.io/&quot;&gt;Hyde A jekyll theme&lt;/a&gt;: for the prominent sidebar&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lanyon.getpoole.com&quot;&gt;Lanyon&lt;/a&gt;: the effect of the sidebar&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://codepen.io/&quot;&gt;For sci-fi elements&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://wellstyled.com/tools/&quot;&gt;Webdesigners Tools&lt;/a&gt;: for the &lt;a href=&quot;http://wellstyled.com/tools/dummy-cz&quot;&gt;Pseudo-Czech Dummy Text Generator&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyllrb.com/docs/plugins/&quot;&gt;jekyll plugins from official docs&lt;/a&gt;, &lt;a href=&quot;http://www.jekyll-plugins.com/&quot;&gt;website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://plugins.jetbrains.com/?idea&quot;&gt;IdeaU plugin&lt;/a&gt;: later maybe I will develop a Jekyll plugin…&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;problems&quot;&gt;Problems&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Compass/compass/wiki/Jekyll-Integration&quot;&gt;compass, jekyll integration&lt;/a&gt;, &lt;a href=&quot;https://github.com/mscharley/jekyll-compass&quot;&gt;A plugin that didn’t work&lt;/a&gt;, &lt;a href=&quot;http://davidpots.com/jekyll/tutorial/git/2013/06/24/jekyll-github-pages-compass.html&quot;&gt;possibile solution 1&lt;/a&gt;, &lt;a href=&quot;http://davidpots.com/jekyll/tutorial/git/2013/06/24/jekyll-github-pages-compass.html&quot;&gt;possibile solution 2&lt;/a&gt;, &lt;a href=&quot;http://neverstopbuilding.com/jekyll-slim-compass-blog&quot;&gt;possibile solution 3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The contrast of midnight is too high. Try to learn from &lt;a href=&quot;http://jekyllrb.com/docs/home/&quot;&gt;jekyll official site&lt;/a&gt;, &lt;a href=&quot;https://github.com/jekyll/jekyll/tree/master/site&quot;&gt;source&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Mon, 27 Jul 2015 18:50:45 +0800</pubDate>
+        <link>http://hustlion.github.io/blog/2015/07/27/jekyll/</link>
+        <guid isPermaLink="true">http://hustlion.github.io/blog/2015/07/27/jekyll/</guid>
+        
+        
+        <category>Tools</category>
+        
+      </item>
+    
+      <item>
+        <title>Example content - midnight</title>
+        <description>&lt;div class=&quot;message&quot;&gt;
+  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+&lt;/div&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
+
+&lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt;
+
+&lt;p&gt;HTML defines a long list of available inline tags, a complete list of which can be found on the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&quot;&gt;Mozilla Developer Network&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;To bold text&lt;/strong&gt;, use &lt;code&gt;&amp;lt;strong&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;To italicize text&lt;/em&gt;, use &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Abbreviations, like &lt;abbr title=&quot;HyperText Markup Langage&quot;&gt;HTML&lt;/abbr&gt; should use &lt;code&gt;&amp;lt;abbr&amp;gt;&lt;/code&gt;, with an optional &lt;code&gt;title&lt;/code&gt; attribute for the full phrase.&lt;/li&gt;
+  &lt;li&gt;Citations, like &lt;cite&gt;— Mark otto&lt;/cite&gt;, should use &lt;code&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;Deleted&lt;/del&gt; text should use &lt;code&gt;&amp;lt;del&amp;gt;&lt;/code&gt; and &lt;ins&gt;inserted&lt;/ins&gt; text should use &lt;code&gt;&amp;lt;ins&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Superscript &lt;sup&gt;text&lt;/sup&gt; uses &lt;code&gt;&amp;lt;sup&amp;gt;&lt;/code&gt; and subscript &lt;sub&gt;text&lt;/sub&gt; uses &lt;code&gt;&amp;lt;sub&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Most of these elements are styled by browsers with few modifications on our part.&lt;/p&gt;
+
+&lt;h2 id=&quot;heading&quot;&gt;Heading&lt;/h2&gt;
+
+&lt;p&gt;Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p&gt;
+
+&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis &lt;code&gt;code element&lt;/code&gt; montes, nascetur ridiculus mus.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Example can be run directly in your JavaScript console&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Create a function that takes two arguments and returns the sum of those arguments&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;a&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;b&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;return a + b&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Call the function&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// &amp;gt; 8&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.&lt;/p&gt;
+
+&lt;h3 id=&quot;lists&quot;&gt;Lists&lt;/h3&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Praesent commodo cursus magna, vel scelerisque nisl consectetur et.&lt;/li&gt;
+  &lt;li&gt;Donec id elit non mi porta gravida at eget metus.&lt;/li&gt;
+  &lt;li&gt;Nulla vitae elit libero, a pharetra augue.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Vestibulum id ligula porta felis euismod semper.&lt;/li&gt;
+  &lt;li&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/li&gt;
+  &lt;li&gt;Maecenas sed diam eget risus varius blandit sit amet non magna.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;HyperText Markup Language (HTML)&lt;/dt&gt;
+  &lt;dd&gt;The language used to describe and define the content of a Web page&lt;/dd&gt;
+
+  &lt;dt&gt;Cascading Style Sheets (CSS)&lt;/dt&gt;
+  &lt;dd&gt;Used to describe the appearance of Web content&lt;/dd&gt;
+
+  &lt;dt&gt;JavaScript (JS)&lt;/dt&gt;
+  &lt;dd&gt;The programming language used to build advanced Web sites and applications&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
+
+&lt;h3 id=&quot;images&quot;&gt;Images&lt;/h3&gt;
+
+&lt;p&gt;Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://placehold.it/800x400&quot; alt=&quot;placeholder&quot; title=&quot;Large example image&quot; /&gt;
+&lt;img src=&quot;http://placehold.it/400x200&quot; alt=&quot;placeholder&quot; title=&quot;Medium example image&quot; /&gt;
+&lt;img src=&quot;http://placehold.it/200x200&quot; alt=&quot;placeholder&quot; title=&quot;Small example image&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;tables&quot;&gt;Tables&lt;/h3&gt;
+
+&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Upvotes&lt;/th&gt;
+      &lt;th&gt;Downvotes&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Totals&lt;/td&gt;
+      &lt;td&gt;21&lt;/td&gt;
+      &lt;td&gt;23&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Alice&lt;/td&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;11&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bob&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Charlie&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;9&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 27 Jul 2015 00:00:00 +0800</pubDate>
+        <link>http://hustlion.github.io/blog/2015/07/27/example-content-midnight/</link>
+        <guid isPermaLink="true">http://hustlion.github.io/blog/2015/07/27/example-content-midnight/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Example content</title>
+        <description>&lt;div class=&quot;message&quot;&gt;
+  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+&lt;/div&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
+
+&lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt;
+
+&lt;p&gt;HTML defines a long list of available inline tags, a complete list of which can be found on the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&quot;&gt;Mozilla Developer Network&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;To bold text&lt;/strong&gt;, use &lt;code&gt;&amp;lt;strong&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;To italicize text&lt;/em&gt;, use &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Abbreviations, like &lt;abbr title=&quot;HyperText Markup Langage&quot;&gt;HTML&lt;/abbr&gt; should use &lt;code&gt;&amp;lt;abbr&amp;gt;&lt;/code&gt;, with an optional &lt;code&gt;title&lt;/code&gt; attribute for the full phrase.&lt;/li&gt;
+  &lt;li&gt;Citations, like &lt;cite&gt;— Mark otto&lt;/cite&gt;, should use &lt;code&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;Deleted&lt;/del&gt; text should use &lt;code&gt;&amp;lt;del&amp;gt;&lt;/code&gt; and &lt;ins&gt;inserted&lt;/ins&gt; text should use &lt;code&gt;&amp;lt;ins&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Superscript &lt;sup&gt;text&lt;/sup&gt; uses &lt;code&gt;&amp;lt;sup&amp;gt;&lt;/code&gt; and subscript &lt;sub&gt;text&lt;/sub&gt; uses &lt;code&gt;&amp;lt;sub&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Most of these elements are styled by browsers with few modifications on our part.&lt;/p&gt;
+
+&lt;h2 id=&quot;heading&quot;&gt;Heading&lt;/h2&gt;
+
+&lt;p&gt;Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p&gt;
+
+&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis &lt;code&gt;code element&lt;/code&gt; montes, nascetur ridiculus mus.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Example can be run directly in your JavaScript console&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Create a function that takes two arguments and returns the sum of those arguments&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;a&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;b&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;return a + b&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Call the function&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// &amp;gt; 8&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.&lt;/p&gt;
+
+&lt;h3 id=&quot;gists-via-github-pages&quot;&gt;Gists via GitHub Pages&lt;/h3&gt;
+
+&lt;p&gt;Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.&lt;/p&gt;
+
+&lt;div&gt;&lt;script src=&quot;https://gist.github.com/5555251.js?file=gist.md&quot;&gt;&lt;/script&gt;
+&lt;noscript&gt;&lt;pre&gt;&lt;code&gt;Here&amp;#39;s an example of how to embed a Gist on GitHub Pages:
+
+```
+{% gist 5555251 %}
+```
+
+All you need to do is copy and paste the Gist&amp;#39;s ID from the URL (here `5555251`), and add it to a `gist` tag surrounded by `{%` and `%}`.&lt;/code&gt;&lt;/pre&gt;&lt;/noscript&gt;&lt;/div&gt;
+
+&lt;p&gt;Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.&lt;/p&gt;
+
+&lt;h3 id=&quot;lists&quot;&gt;Lists&lt;/h3&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Praesent commodo cursus magna, vel scelerisque nisl consectetur et.&lt;/li&gt;
+  &lt;li&gt;Donec id elit non mi porta gravida at eget metus.&lt;/li&gt;
+  &lt;li&gt;Nulla vitae elit libero, a pharetra augue.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Vestibulum id ligula porta felis euismod semper.&lt;/li&gt;
+  &lt;li&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/li&gt;
+  &lt;li&gt;Maecenas sed diam eget risus varius blandit sit amet non magna.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;HyperText Markup Language (HTML)&lt;/dt&gt;
+  &lt;dd&gt;The language used to describe and define the content of a Web page&lt;/dd&gt;
+
+  &lt;dt&gt;Cascading Style Sheets (CSS)&lt;/dt&gt;
+  &lt;dd&gt;Used to describe the appearance of Web content&lt;/dd&gt;
+
+  &lt;dt&gt;JavaScript (JS)&lt;/dt&gt;
+  &lt;dd&gt;The programming language used to build advanced Web sites and applications&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
+
+&lt;h3 id=&quot;images&quot;&gt;Images&lt;/h3&gt;
+
+&lt;p&gt;Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://placehold.it/800x400&quot; alt=&quot;placeholder&quot; title=&quot;Large example image&quot; /&gt;
+&lt;img src=&quot;http://placehold.it/400x200&quot; alt=&quot;placeholder&quot; title=&quot;Medium example image&quot; /&gt;
+&lt;img src=&quot;http://placehold.it/200x200&quot; alt=&quot;placeholder&quot; title=&quot;Small example image&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;tables&quot;&gt;Tables&lt;/h3&gt;
+
+&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Upvotes&lt;/th&gt;
+      &lt;th&gt;Downvotes&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Totals&lt;/td&gt;
+      &lt;td&gt;21&lt;/td&gt;
+      &lt;td&gt;23&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Alice&lt;/td&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;11&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bob&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Charlie&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;9&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 27 Jul 2015 00:00:00 +0800</pubDate>
+        <link>http://hustlion.github.io/blog/2015/07/27/example-content-hyde/</link>
+        <guid isPermaLink="true">http://hustlion.github.io/blog/2015/07/27/example-content-hyde/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Programming languages and platforms that I use</title>
+        <description>&lt;h1 id=&quot;programming-languages&quot;&gt;Programming languages&lt;/h1&gt;
+
+&lt;p&gt;Html, C++…&lt;/p&gt;
+
+&lt;h1 id=&quot;platforms&quot;&gt;Platforms&lt;/h1&gt;
+
+&lt;p&gt;.Net React.js….&lt;/p&gt;
+</description>
+        <pubDate>Sun, 26 Jul 2015 15:50:45 +0800</pubDate>
+        <link>http://hustlion.github.io/blog/2015/07/26/languages-platforms/</link>
+        <guid isPermaLink="true">http://hustlion.github.io/blog/2015/07/26/languages-platforms/</guid>
+        
+        
+        <category>Tools</category>
+        
+      </item>
+    
+      <item>
+        <title>Web front-end training routine</title>
+        <description>&lt;h1 id=&quot;beginner&quot;&gt;Beginner&lt;/h1&gt;
+&lt;p&gt;To practise html+css+javascript(and their variants):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://codepen.io/&quot;&gt;CodePen - Front End Developer Playground &amp;amp; Code Editor in the Browser&lt;/a&gt;: I have collected some really good design here.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.shortcutfoo.com/&quot;&gt;shortcutfoo&lt;/a&gt;: Better be familiar with common shorcuts.&lt;/li&gt;
+  &lt;li&gt;Yeoman or some other scaffolding tools.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;intermediate&quot;&gt;Intermediate&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Build my own site.&lt;/li&gt;
+  &lt;li&gt;Common frameworks and libraries and their samples.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;advanced&quot;&gt;Advanced&lt;/h1&gt;
+&lt;p&gt;Game and mobile.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;Codecombat development&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;lila&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;experts&quot;&gt;Experts&lt;/h1&gt;
+
+&lt;p&gt;TCP/IP protocals…&lt;/p&gt;
+
+&lt;h1 id=&quot;to-full-stack-and-native&quot;&gt;To full stack and native&lt;/h1&gt;
+
+&lt;p&gt;EVEMon+market+planet&lt;/p&gt;
+
+&lt;p&gt;the source code of commonly used tools&lt;/p&gt;
+
+&lt;p&gt;Topcoder, oj.&lt;/p&gt;
+
+&lt;p&gt;Adobe, infographics, autodesk&lt;/p&gt;
+
+&lt;h1 id=&quot;work-and-part-time&quot;&gt;work and part-time&lt;/h1&gt;
+
+&lt;p&gt;BAT&lt;/p&gt;
+
+&lt;p&gt;github, bitbucket…&lt;/p&gt;
+
+&lt;p&gt;freelancer…&lt;/p&gt;
+
+&lt;h1 id=&quot;tutorials&quot;&gt;Tutorials&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.jikexueyuan.com/path/web/&quot;&gt;Web前端开发工程师大神养成计划助你从小小白大作战成为爱极客&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://frontendmasters.com/&quot;&gt;frontendmasters&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.modularview.com/&quot;&gt;modularview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.imooc.com/learn/50&quot;&gt;Yahoo军规&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 26 Jul 2015 13:50:45 +0800</pubDate>
+        <link>http://hustlion.github.io/blog/2015/07/26/web-front-end/</link>
+        <guid isPermaLink="true">http://hustlion.github.io/blog/2015/07/26/web-front-end/</guid>
+        
+        
+        <category>Routine</category>
+        
+      </item>
+    
+      <item>
+        <title>EVE Online国服笔记</title>
+        <description>&lt;h1 id=&quot;section&quot;&gt;技能学习路线&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;【不在新手88本中】规避机动理论 3&lt;/strong&gt; （打仗不容易掉队）
+28. &lt;strong&gt;【不在新手88本中】盖伦特战列舰操控 3级&lt;/strong&gt;
+30. 【不在新手88本中】无人机控制论 4级
+31. 【不在新手88本中】无人机精确射击 4级
+35. 【高级技能】岗哨无人机操控理论 4
+36. 【高级技能】盖伦特无人机专业研究 4级
+37. 【高级技能】米玛塔尔无人机专业研究 4级
+38. 【高级技能】加达里无人机专业研究  4级
+42. 【后勤类】维修系统理论 4级 
+46. 【不在新手88本中，本地怪物没有此类伤害，可以后期学习】动能装甲补偿理论 3级 
+47. 【不在新手88本中，本地怪物没有此类伤害，可以后期学习】热能装甲补偿理论 3级 
+57. 【不在新手88本中】战术护盾操控 3级 
+58. 【不在新手88本中】爆炸护盾补偿 3级 
+60. 【不在新手88本中】动能护盾补偿 3级 
+61. 【不在新手88本中】热能护盾补偿 3级 
+64. 加达里战列巡洋舰操作 4级、 中型磁轨炮专业研究 4级。（开T2炮-猛鲑-2型 ）。
+65. 无人机、工程学、导航学、CPU、护盾、扫描、射击学，能学习的辅助技能学到3级，4级。&lt;/p&gt;
+</description>
+        <pubDate>Sat, 25 Jul 2015 00:50:45 +0800</pubDate>
+        <link>http://hustlion.github.io/blog/2015/07/25/eve/</link>
+        <guid isPermaLink="true">http://hustlion.github.io/blog/2015/07/25/eve/</guid>
+        
+        
+        <category>Game</category>
+        
+      </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Tools | LionMundo]]></title>
+  <link href="http://hustlion.github.io/blog/categories/tools/atom.xml" rel="self"/>
+  <link href="http://hustlion.github.io/"/>
+  <updated>2016-05-03T16:55:43+08:00</updated>
+  <id>http://hustlion.github.io/</id>
+  <author>
+    <name><![CDATA[Hustlion]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Jekyll theme tweaking]]></title>
+    <link href="http://hustlion.github.io/blog/2015/07/27/jekyll/"/>
+    <updated>2015-07-27T18:50:45+08:00</updated>
+    <id>http://hustlion.github.io/blog/2015/07/27/jekyll</id>
+    <content type="html"><![CDATA[<h1 id="principles">Principles</h1>
+
+<ul>
+  <li>Sci-fi</li>
+  <li>neat</li>
+</ul>
+
+<h1 id="possible-tricks">Possible Tricks</h1>
+
+<ul>
+  <li>bower</li>
+  <li>9 languages combined to one, once clicked they will expand.</li>
+  <li>different design for different content</li>
+  <li>repo comment, design comment, tool collections, bookmarks, algorithms, visualizations should all have different layout.</li>
+</ul>
+
+<h1 id="resources">Resources</h1>
+
+<ul>
+  <li><a href="https://github.com/mattgraham/midnight">GitHub Pages Theme: Midnight </a>: for the color and main parts. <a href="http://madebygraham.com/midnight/">Live demo</a>.</li>
+  <li><a href="http://rprieto.github.io/">Hyde A jekyll theme</a>: for the prominent sidebar</li>
+  <li><a href="http://lanyon.getpoole.com">Lanyon</a>: the effect of the sidebar</li>
+  <li><a href="http://codepen.io/">For sci-fi elements</a></li>
+  <li><a href="http://wellstyled.com/tools/">Webdesigners Tools</a>: for the <a href="http://wellstyled.com/tools/dummy-cz">Pseudo-Czech Dummy Text Generator</a></li>
+  <li><a href="http://jekyllrb.com/docs/plugins/">jekyll plugins from official docs</a>, <a href="http://www.jekyll-plugins.com/">website</a></li>
+  <li><a href="https://plugins.jetbrains.com/?idea">IdeaU plugin</a>: later maybe I will develop a Jekyll plugin…</li>
+  <li></li>
+</ul>
+
+<h1 id="problems">Problems</h1>
+
+<ol>
+  <li><a href="https://github.com/Compass/compass/wiki/Jekyll-Integration">compass, jekyll integration</a>, <a href="https://github.com/mscharley/jekyll-compass">A plugin that didn’t work</a>, <a href="http://davidpots.com/jekyll/tutorial/git/2013/06/24/jekyll-github-pages-compass.html">possibile solution 1</a>, <a href="http://davidpots.com/jekyll/tutorial/git/2013/06/24/jekyll-github-pages-compass.html">possibile solution 2</a>, <a href="http://neverstopbuilding.com/jekyll-slim-compass-blog">possibile solution 3</a></li>
+  <li>The contrast of midnight is too high. Try to learn from <a href="http://jekyllrb.com/docs/home/">jekyll official site</a>, <a href="https://github.com/jekyll/jekyll/tree/master/site">source</a>.</li>
+</ol>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Programming languages and platforms that I use]]></title>
+    <link href="http://hustlion.github.io/blog/2015/07/26/languages-platforms/"/>
+    <updated>2015-07-26T15:50:45+08:00</updated>
+    <id>http://hustlion.github.io/blog/2015/07/26/languages-platforms</id>
+    <content type="html"><![CDATA[<h1 id="programming-languages">Programming languages</h1>
+
+<p>Html, C++…</p>
+
+<h1 id="platforms">Platforms</h1>
+
+<p>.Net React.js….</p>
+]]></content>
+  </entry>
+  
+</feed>

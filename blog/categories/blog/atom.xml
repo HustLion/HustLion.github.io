@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Blog | LionMundo]]></title>
+  <link href="http://hustlion.github.io/blog/categories/blog/atom.xml" rel="self"/>
+  <link href="http://hustlion.github.io/"/>
+  <updated>2016-05-03T16:55:43+08:00</updated>
+  <id>http://hustlion.github.io/</id>
+  <author>
+    <name><![CDATA[Hustlion]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[A blog demo: Refresh-canvas]]></title>
+    <link href="http://hustlion.github.io/blog/2015/06/28/refresh/"/>
+    <updated>2015-06-28T19:50:45+08:00</updated>
+    <id>http://hustlion.github.io/blog/2015/06/28/refresh</id>
+    <content type="html"><![CDATA[<h1 id="refresh-canvas">Refresh-canvas</h1>
+
+<h2 id="introduction">Introduction</h2>
+<p>After learning Snake, I think it’s good to read the git repo that provided the tutorials, <a href="https://github.com/HustLion/refresh-canvas">refresh-canvas</a>.</p>
+
+<p>I think this is more of a Mako example.</p>
+
+<h2 id="new-things-encountered">New things encountered:</h2>
+
+<ul>
+  <li><a href="http://www.makotemplates.org/">Mako</a>: Mako is a template library written in Python.</li>
+  <li><a href="http://learn.jquery.com/jquery-ui/getting-started/">jQuery UI</a>: really marvelous… quickly a modern, elegant UI,,</li>
+  <li><a href="https://rsync.samba.org/">Rsync</a>: rsync is an open source utility that provides fast incremental file transfer. <a href="http://blog.sina.com.cn/s/blog_4b9b714a0100q34n.html">Tutorial in Chinese</a></li>
+  <li><a href="http://pyyaml.org/">PyYaml</a></li>
+  <li><a href="http://obsessing.org/">a online editor for css</a></li>
+  <li><a href="http://azarask.in/projects/algorithm-ink/#d3c3be13">algorithm ink</a></li>
+  <li><a href="https://www.nodebox.net/code/index.php/Home">NodeBox</a>: NodeBox is a Mac OS X application that lets you create 2D visuals (static, animated or interactive) using Python programming code and export them as a PDF or a QuickTime movie. NodeBox is free and well-documented.</li>
+  <li><a href="http://acko.net/blog/farbtastic-jquery-color-picker-plug-in/">Farbtastic</a>: Farbtastic is a jQuery plug-in that can add one or more color picker widgets into a page.</li>
+  <li><a href="https://iwantmyname.com/blog/2014/05/the-updated-big-list-of-static-website-generators-for-your-site-blog-or-wiki.html">About static website generators</a></li>
+  <li><a href="http://jekyllrb.com/">jekyll</a></li>
+  <li><a href="http://jekyllthemes.org/">jekyll themes</a>: I like <a href="http://jekyllthemes.org/themes/midnight/">this</a></li>
+</ul>
+
+<p>And, the presentation here is great… Excellent to teach coding. Can’t imagine how we can finish it in MS PowerPoint or Prezi. Since we run code right on the page. By pressing <code>F11</code> in Firefox, it’s quite great for presentation.</p>
+
+<p>Later maybe I will try to understand existing mako demos and rebuild the presentation in Mako haha.</p>
+
+<h2 id="analysis-of-project">Analysis of project</h2>
+<p><a href="https://github.com/HustLion/refresh-canvas/blob/master/Analysis.md">Read it here</a></p>
+
+<h2 id="summarry">Summarry</h2>
+<p>From this repository I learnt the way to use python and mako to build a static site. Acquired a new workflow: Workflow: <code>template.mak</code>-&gt;<code>yaml</code>-&gt;<code>make.py</code>. But I think I will use <code>jekyll</code> to establish my blog since I mainly use it to test my web project and sort my writings out. No need to further understand Mako syntax and usages. Even for <code>jekyll</code>, I can just use the default and most simple ones and learn as the needs grow.</p>
+
+<h1 id="further-reading">Further reading</h1>
+
+<h2 id="inside-the-project">Inside the project</h2>
+<ul>
+  <li>template.mak</li>
+  <li>make.py</li>
+  <li>rsync</li>
+  <li>presentation</li>
+</ul>
+
+<h2 id="ouside-the-project">Ouside the project</h2>
+<ul>
+  <li>jekyll sites to learn about: <a href="https://github.com/HustLion/jekyll-1">jekyll</a></li>
+</ul>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Routine | LionMundo]]></title>
+  <link href="http://hustlion.github.io/blog/categories/routine/atom.xml" rel="self"/>
+  <link href="http://hustlion.github.io/"/>
+  <updated>2016-05-03T16:55:43+08:00</updated>
+  <id>http://hustlion.github.io/</id>
+  <author>
+    <name><![CDATA[Hustlion]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Web front-end training routine]]></title>
+    <link href="http://hustlion.github.io/blog/2015/07/26/web-front-end/"/>
+    <updated>2015-07-26T13:50:45+08:00</updated>
+    <id>http://hustlion.github.io/blog/2015/07/26/web-front-end</id>
+    <content type="html"><![CDATA[<h1 id="beginner">Beginner</h1>
+<p>To practise html+css+javascript(and their variants):</p>
+
+<ul>
+  <li><a href="http://codepen.io/">CodePen - Front End Developer Playground &amp; Code Editor in the Browser</a>: I have collected some really good design here.</li>
+  <li><a href="https://www.shortcutfoo.com/">shortcutfoo</a>: Better be familiar with common shorcuts.</li>
+  <li>Yeoman or some other scaffolding tools.</li>
+</ul>
+
+<h1 id="intermediate">Intermediate</h1>
+
+<ul>
+  <li>Build my own site.</li>
+  <li>Common frameworks and libraries and their samples.</li>
+</ul>
+
+<h1 id="advanced">Advanced</h1>
+<p>Game and mobile.</p>
+
+<ul>
+  <li><a href="">Codecombat development</a></li>
+  <li><a href="">lila</a></li>
+</ul>
+
+<h1 id="experts">Experts</h1>
+
+<p>TCP/IP protocals…</p>
+
+<h1 id="to-full-stack-and-native">To full stack and native</h1>
+
+<p>EVEMon+market+planet</p>
+
+<p>the source code of commonly used tools</p>
+
+<p>Topcoder, oj.</p>
+
+<p>Adobe, infographics, autodesk</p>
+
+<h1 id="work-and-part-time">work and part-time</h1>
+
+<p>BAT</p>
+
+<p>github, bitbucket…</p>
+
+<p>freelancer…</p>
+
+<h1 id="tutorials">Tutorials</h1>
+
+<ul>
+  <li><a href="http://www.jikexueyuan.com/path/web/">Web前端开发工程师大神养成计划助你从小小白大作战成为爱极客</a></li>
+  <li><a href="https://frontendmasters.com/">frontendmasters</a></li>
+  <li><a href="http://www.modularview.com/">modularview</a></li>
+  <li><a href="http://www.imooc.com/learn/50">Yahoo军规</a></li>
+</ul>
+]]></content>
+  </entry>
+  
+</feed>
